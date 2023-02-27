@@ -1,0 +1,11 @@
+[package]
+name = "solana_smart_contract"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "solana_smart_contract"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-program = "1.15.2"
